@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+.header {
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  background-color: tomato;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.card {
+  display: flex;
+  gap: 20px;
+  margin: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.card .img {
+  width: 400px;
+  height: 250px;
+  border-radius: 25px;
+}
+.card .location {
+  margin-right: 20px;
+  font-weight: bold;
+}
+.card a {
+  color: rgb(189, 189, 189);
+}
+.card p {
+  max-width: 800px;
+  line-height: 1.6;
+}
+@media (max-width: 900px) {
+  .card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  .card p {
+    padding: 0px 50px;
+    text-align: center;
+    max-width: 100%;
+  }
+}
